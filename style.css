@@ -1,0 +1,129 @@
+* {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    color: #000;
+    font-size: 15px;
+}
+nav {
+    background-color: #4af;
+    display: flex;
+    padding: 0 10%;
+}
+.list-nav-l,.list-nav-p {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.nav-tx {
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+.nav-tx:hover {
+    transition: all .1s;
+}
+.list-nav-p li img {
+    padding: 20px;
+}
+a{
+    font-weight: 200;
+}
+a:hover {
+    font-size: 14px;
+    color: #fff;
+    background-color: #22f;
+    font-weight: 500;
+}
+.desplegable {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 12%;
+    position: absolute;
+    visibility: hidden;
+}
+.desplegable li a {
+    display: block;
+    padding: 15px;
+    background-color: #4af;
+    color: #000;
+}
+.desplegable li a:hover {
+    background-color: #22f;
+    color: #fff;
+}
+.list-nav-p li:hover .desplegable {
+    visibility: visible;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+section div div, h2, p {
+    padding: 10px 0px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+.contenido1, .contenido2, .contenido3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor1,.contenedor2,.contenedor3 {
+    width: 70%;
+}
+.contenido1 {
+    color: #fff;
+    background-size: 100%;
+    background-image: url(./images/fondoDeCiudad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contenido3 {
+    color: #fff;
+    background-size: 100%;
+    background-image: url(./images/fondoDeCiudad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contenedor3 {
+    display: flex;
+}
+.cont3, .cont3-1 {
+    padding: 0 25px;
+}
+.cont3 {
+    background-color: #000;
+}
+.cont3-1 {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+.contButton {
+    text-align: center;
+}
+button {
+    width: 15%;
+    text-align: center;
+
+}
